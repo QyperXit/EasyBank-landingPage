@@ -34,7 +34,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [Solution](https://www.frontendmentor.io/solutions/easybank-landing-page-solution-8yhFs2OOE0)
 - Live Site URL: [Live Site](https://65c158cd83f9d32874d22f8b--boisterous-cocada-fb28fd.netlify.app/)
 
 ## My process
