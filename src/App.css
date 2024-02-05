@@ -1,0 +1,14 @@
+#root {
+  max-width: 1440px;
+  margin: 0 auto;
+  /* border: 2px solid red; */
+  /* padding: 2rem; */
+  /* text-align: center; */
+}
+
+.container {
+  overflow-x: hidden;
+  position: relative;
+  /* height: 100%; */
+  max-width: 1440;
+}

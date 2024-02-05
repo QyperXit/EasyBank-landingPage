@@ -1,0 +1,84 @@
+.banking-info {
+  background: var(--very-light-gray);
+  z-index: -10;
+  margin-top: 7em;
+  padding-block: 4em;
+  padding-inline: 6em;
+}
+
+.features {
+  display: flex;
+  margin-top: 4em;
+  gap: 2rem;
+}
+
+.bank-title {
+  font-size: 2.5rem;
+  font-weight: var(--font-weight-light);
+  color: var(--dark-blue);
+}
+
+.bank-sales-info {
+  p {
+    color: var(--grayish-blue);
+    line-height: var(--line-height);
+  }
+}
+
+.feature-list {
+  h2 {
+    color: var(--dark-blue);
+    margin-top: 2rem;
+    font-weight: var(--font-weight-light);
+  }
+}
+
+.feature-text {
+  color: var(--grayish-blue);
+  line-height: var(--line-height);
+}
+
+.text {
+  max-width: 260px;
+}
+
+.article-section {
+  padding-top: 2em;
+  padding-bottom: 4em;
+}
+
+@media (max-width: 925px) {
+  .banking-info {
+    padding-inline: 1em;
+  }
+
+  .features {
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+  }
+  .bank-sales-info {
+    /* text-align: center; */
+  }
+}
+
+@media (max-width: 600px) {
+  .bank-sales-info {
+    text-align: center;
+    text-wrap: balance;
+  }
+
+  .bank-info {
+    padding-block: 3em;
+  }
+
+  .text {
+    max-width: 350px;
+  }
+}
+
+@media (max-width: 880px) {
+  .bank-sales-info {
+    text-align: center;
+  }
+}
