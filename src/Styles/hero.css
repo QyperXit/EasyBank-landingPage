@@ -9,7 +9,7 @@
 
 .hero-h1 {
   font-size: 3rem;
-  font-weight: var(--font-weight-medium);
+  font-weight: var(--font-weight-light);
   color: var(--dark-blue);
   margin-top: 2em;
 }
