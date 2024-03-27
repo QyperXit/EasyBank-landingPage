@@ -55,7 +55,7 @@ section {
 .article {
   box-shadow: 0 0 5px 1px rgba(234, 234, 234, 0.594);
   /* border: 2px solid red; */
-  max-width: 295px;
+  max-width: 265px;
   height: auto;
 }
 
@@ -64,6 +64,10 @@ section {
 }
 
 @media (max-width: 925px) {
+  .article {
+    max-width: 295px;
+  }
+
   .article-section {
     margin-inline: 1em;
     h1 {
